@@ -15,7 +15,7 @@ func main() {
 
 		f := fib()
 
-		res := &response{Message: "Kubernetes service v2"}
+		res := &response{Message: "Kubernetes service v3"}
 
 		for _, e := range os.Environ() {
 			pair := strings.Split(e, "=")
